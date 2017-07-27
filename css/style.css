@@ -470,9 +470,10 @@ header .brand_name a {
 body .row {
 	margin-left: 0;
 }
+
 .slider_small {
-	width: 200px;
-	height: 200px;
+	width: 360px;
+	height: 150px;
 	margin: 0;
 	padding: 0;
 	box-sizing: content-box;
@@ -487,15 +488,19 @@ body .row {
 .slide_2 .item img {
 	position: relative;
 	left: 0;
-	margin: 0;
+	margin-left: 60px;
 }
 .indicators_2 {
-	top: 150px;
+	top: 120px;
 	left: 170px;
+	height: 20px
 }
 .carousel_small p {
 	color: #888a8c;
 	text-shadow: none;
+	text-align: center;
+	margin-right: 80px;
+	height: 150px;
 }
 .slider_wrap .slider_small {
 	margin-left: 0;
@@ -505,4 +510,12 @@ body .row {
 .slide_2 li {
 	background-color: #62bfe6;
 	border-color: #62bfe6;
+}
+.carousel_small .item img {
+	float: left;
+}
+.fa-quote-left {
+	color: #62bfe6;
+	font-size: 20px;
+	padding-right: 10px;
 }
